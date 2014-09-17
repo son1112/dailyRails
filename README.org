@@ -1,0 +1,78 @@
+Daily Rails
+
+  Application for daily (or not so daily) video blogging of my Rails application
+  building experiences. It's loose, but I hope to learn how to be:
+
+  - [ ] More organized. I'm sure as soon as I watch this video, I will be 
+  apalled(sp?) at my ...
+
+* Config
+
+  [[./Gemfile][Gemfile]]
+
+  [[./config/routes.rb][Routes]]
+
+** M
+
+   [[./app/models/post.rb][Post]]
+
+** V
+
+*** Posts
+
+    [[./app/views/posts/index.html.erb][Index]]
+
+** C  
+
+** Helpers
+
+   [[./app/helpers/posts_helper.rb][Posts]]
+
+* MVC
+
+** Models
+
+   Blog/vlog has
+   
+*** Posts
+
+    : rails g scaffold Post title:string log:text category:string tags:text comments:text
+
+    : has_many :comments
+
+    - [ ] video
+      
+      paperclip?
+
+    - [ ] title
+
+    - [ ] log
+
+    - [ ] category
+
+    - [ ] tags
+
+    - [ ] comments
+   
+
+*** Comments
+
+** Views
+
+** Controller  
+
+
+* Devise
+
+* Paperclip
+
+* NB
+
+** Ideas
+
+   - [ ] Webcam corner
+
+   - [ ] Create a Rails org template
+
+   - [ ] Speed up videos
+
